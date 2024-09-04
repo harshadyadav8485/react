@@ -12,6 +12,55 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* Styles for the table container */
+.table-container {
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Styles for table headers */
+thead th {
+  background-color: #f4f4f4;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Styles for table data cells */
+tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row color for better readability */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Table border */
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+/* Table header font weight */
+thead th {
+  font-weight: bold;
+}
 
 .App-header {
   background-color: #282c34;

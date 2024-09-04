@@ -1,8 +1,10 @@
 import { AppLayout } from "./Component/AppLayout";
+import { District } from "./Component/District";
+import { States } from "./Component/States";
 import { ContactPage } from "./ContactPage";
 import { Home } from "./Home";
 import React from "react";
-
+import "./App.css";
 const {
   createBrowserRouter,
   RouterProvider,
@@ -23,6 +25,14 @@ const App = () => {
         {
           path: "/contact",
           element: <ContactPage />,
+        },
+        {
+          path: "/States",
+          element: <States />,
+        },
+        {
+          path: "/District",
+          element: <District />,
         },
       ],
     },
